@@ -6,4 +6,4 @@ RUN apt update -y \
     && apt install dnsutils -y \
     && rm -rf /var/cache/apt/archives
 
-CMD watch -n1 echo ""
+CMD tail -f /dev/null
